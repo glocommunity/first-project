@@ -9,6 +9,7 @@ header {
     background-size: contain;
     width: 100%;
     height: 100vh;
+    background-color: #0f0f0f;
 }
 
 .container {
@@ -21,4 +22,21 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 150px;
+}
+.main {
+    width: 100%;
+}
+.main__header {
+    padding-top: 15%;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+footer {
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+.footer__copyright {
+    font-family: Helvetica, sans-serif;
 }
